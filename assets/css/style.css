@@ -7,8 +7,8 @@
   --text:      #e2eaf4;
   --muted:     #5a7290;
   --danger:    #ff4d6d;
-  --mono:      'Space Mono', monospace;
-  --sans:      'Syne', sans-serif;
+  --mono:      'IBM Plex Mono', monospace;
+  --sans:      'IBM Plex Sans', sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -119,6 +119,8 @@ main {
   max-width: 860px;
   margin: 0 auto;
   padding: 4rem 1.5rem 6rem;
+  opacity: 0;
+  transition: opacity .6s ease;
 }
 
 /* ── HEADER ── */
